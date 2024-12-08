@@ -85,6 +85,7 @@
             btn5.TabIndex = 5;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = true;
+            btn5.Click += btn5_Click;
             // 
             // btn2
             // 
