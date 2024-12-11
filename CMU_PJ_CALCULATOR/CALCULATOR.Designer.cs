@@ -313,6 +313,7 @@
             btnCLEAR.TabIndex = 30;
             btnCLEAR.Text = "CLEAR";
             btnCLEAR.UseVisualStyleBackColor = true;
+            btnCLEAR.Click += btnCLEAR_Click;
             // 
             // CALCULATOR
             // 

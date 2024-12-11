@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\techcare\\source\\repos\\cmu_pj_calculator\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\techcare\\source\\repos\\cmu_pj_calculator\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\techcare\\source\\repos\\cmu_pj_calculator\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\techcare\\source\\repos\\cmu_pj_calculator\\cmu_pj_calculator\\calculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 293,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,20 +44,20 @@
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
               "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAjwOUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T13:46:13.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CALCULATOR.cs",
               "DocumentMoniker": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAArwH8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAAWwKMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:38:30.51Z",
               "EditorCaption": ""
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CALCULATOR.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
