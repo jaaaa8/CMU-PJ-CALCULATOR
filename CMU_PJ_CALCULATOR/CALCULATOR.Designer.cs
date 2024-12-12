@@ -129,6 +129,7 @@
             btn4.TabIndex = 9;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
+            btn4.Click += btn4_Click;
             // 
             // btn1
             // 

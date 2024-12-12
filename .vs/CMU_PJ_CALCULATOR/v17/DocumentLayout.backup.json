@@ -46,7 +46,8 @@
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:46:13.677Z"
+              "WhenOpened": "2024-12-08T13:46:13.677Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -56,7 +57,7 @@
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAgwBAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAWwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:38:30.51Z",
               "EditorCaption": ""
@@ -82,7 +83,8 @@
               "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T05:49:19.828Z"
+              "WhenOpened": "2024-12-08T05:49:19.828Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },
