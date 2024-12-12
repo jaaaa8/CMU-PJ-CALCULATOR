@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\",
   "Documents": [
     {
@@ -17,6 +18,25 @@
     {
       "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|e:\\nhom 4 thang tre gio\\cmu-pj-calculator\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\lenovo\\desktop\\thiendeptrai\\cmu-pj-calculator\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\lenovo\\desktop\\thiendeptrai\\cmu-pj-calculator\\cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\lenovo\\desktop\\thiendeptrai\\cmu-pj-calculator\\cmu_pj_calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|c:\\users\\lenovo\\desktop\\thiendeptrai\\cmu-pj-calculator\\cmu_pj_calculator\\calculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A73662E5-79EE-4255-B3CC-BD94C17903B1}|CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj|solutionrelative:cmu_pj_calculator\\calculator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 2355939a23ec07c1220f5236359e68114c30cf86
     }
   ],
   "DocumentGroupContainers": [
@@ -34,6 +54,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "CALCULATOR.Designer.cs",
               "DocumentMoniker": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
@@ -41,6 +62,15 @@
               "ToolTip": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs*",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs*",
               "ViewState": "AgIAAAsAAAAAAAAAAAD4vxYAAAAIAAAAAAAAAA==",
+=======
+              "DocumentIndex": 3,
+              "Title": "CALCULATOR.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
+              "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
+              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+>>>>>>> 2355939a23ec07c1220f5236359e68114c30cf86
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T13:46:13.677Z",
               "EditorCaption": ""
@@ -49,11 +79,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CALCULATOR.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "ToolTip": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs*",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs*",
               "ViewState": "AgIAAEkAAAAAAAAAAIAwwFEAAAAJAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAADwv/gAAAANAAAAAAAAAA==",
+>>>>>>> 2355939a23ec07c1220f5236359e68114c30cf86
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:38:30.51Z",
               "EditorCaption": ""
@@ -62,9 +100,15 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\Program.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\Program.cs",
               "ToolTip": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\Program.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\Program.cs",
+              "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\Program.cs",
+>>>>>>> 2355939a23ec07c1220f5236359e68114c30cf86
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -73,12 +117,21 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "CALCULATOR.cs [Design]",
               "DocumentMoniker": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "ToolTip": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]*",
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]*",
+=======
+              "DocumentIndex": 1,
+              "Title": "CALCULATOR.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]",
+              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]",
+>>>>>>> 2355939a23ec07c1220f5236359e68114c30cf86
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T05:49:19.828Z",
               "EditorCaption": " [Design]"
