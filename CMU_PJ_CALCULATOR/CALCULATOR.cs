@@ -242,11 +242,20 @@ namespace CMU_PJ_CALCULATOR
 
         private void btnCLEAR_Click(object sender, EventArgs e)
         {
-            txtDISPLAY.Text = "";
-            txtHISTORY.Text = "";
-            pheptinh = "";
-            s1 = 0;
-            result = 0;
+            if (!string.IsNullOrEmpty(txtDISPLAY.Text))
+            {
+                // First click: Clear txtDISPLAY
+                txtDISPLAY.Text = "";
+            }
+            else
+            {
+                // Second click: Clear txtHISTORY if txtDISPLAY is already empty
+                txtHISTORY.Text = "";
+                pheptinh = "";
+                s1 = 0;
+                result = 0;
+            }
         }
+
     }
 }

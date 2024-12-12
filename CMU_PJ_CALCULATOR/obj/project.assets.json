@@ -3683,27 +3683,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TechCare\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
-    "D:\\NuGetPackages": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
       "projectName": "CMU_PJ_CALCULATOR",
-      "projectPath": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
-      "packagesPath": "C:\\Users\\TechCare\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\thiendeptrai\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-        "D:\\NuGetPackages"
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TechCare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3730,8 +3727,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -3761,7 +3757,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

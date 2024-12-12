@@ -276,12 +276,14 @@
             // txtDISPLAY
             // 
             txtDISPLAY.Enabled = false;
-            txtDISPLAY.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtDISPLAY.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtDISPLAY.Location = new Point(44, 50);
             txtDISPLAY.Multiline = true;
             txtDISPLAY.Name = "txtDISPLAY";
             txtDISPLAY.Size = new Size(625, 200);
             txtDISPLAY.TabIndex = 27;
+            txtDISPLAY.Text = "0";
+            txtDISPLAY.TextAlign = HorizontalAlignment.Right;
             // 
             // txtHISTORY
             // 
