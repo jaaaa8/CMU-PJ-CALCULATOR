@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj": {}
+    "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj": {
+    "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
+        "projectUniqueName": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
         "projectName": "CMU_PJ_CALCULATOR",
-        "projectPath": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
-        "packagesPath": "C:\\Users\\TechCare\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\obj\\",
+        "projectPath": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR.csproj",
+        "packagesPath": "C:\\Users\\QUOC THINH\\.nuget\\packages\\",
+        "outputPath": "E:\\nhom 4 thang tre gio\\CMU-PJ-CALCULATOR\\CMU_PJ_CALCULATOR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
-          "D:\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TechCare\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\QUOC THINH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -46,7 +46,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -78,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

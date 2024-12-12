@@ -39,7 +39,10 @@ namespace CMU_PJ_CALCULATOR
                 txtDISPLAY.Text = "Invalid input"; // Hiển thị lỗi nếu không hợp lệ
             }
         }
-
+        private void btn0_Click(object sender, EventArgs e)
+        {
+            txtDISPLAY.Text += btn0.Text;
+        }
 
         private void btn1_Click(object sender, EventArgs e)
         {
@@ -56,14 +59,23 @@ namespace CMU_PJ_CALCULATOR
             txtDISPLAY.Text += btn3.Text;
         }
 
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            txtDISPLAY.Text += btn4.Text;
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            txtDISPLAY.Text += btn5.Text;
+        }
+
         private void btn6_Click(object sender, EventArgs e)
         {
             txtDISPLAY.Text += btn6.Text;
         }
-
-        private void btn9_Click(object sender, EventArgs e)
+        private void btn7_Click(object sender, EventArgs e)
         {
-            txtDISPLAY.Text += btn9.Text;
+            txtDISPLAY.Text += btn7.Text;
         }
 
         private void btn8_Click(object sender, EventArgs e)
@@ -71,9 +83,9 @@ namespace CMU_PJ_CALCULATOR
             txtDISPLAY.Text += btn8.Text;
         }
 
-        private void btn7_Click(object sender, EventArgs e)
+        private void btn9_Click(object sender, EventArgs e)
         {
-            txtDISPLAY.Text += btn7.Text;
+            txtDISPLAY.Text += btn9.Text;
         }
 
         private void btnPHANTRAM_Click(object sender, EventArgs e)
@@ -93,11 +105,6 @@ namespace CMU_PJ_CALCULATOR
             {
                 txtDISPLAY.Text = "Error";
             }
-        }
-
-        private void btn0_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn0.Text;
         }
 
         private void btnCHAM_Click(object sender, EventArgs e)
@@ -209,11 +216,6 @@ namespace CMU_PJ_CALCULATOR
             {
                 txtDISPLAY.Text = "Error";
             }
-        }
-
-        private void btn5_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn5.Text;
         }
 
         private void AddToHistory(string newEntry)
