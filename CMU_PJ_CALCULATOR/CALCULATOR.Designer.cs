@@ -68,7 +68,7 @@
             // btn8
             // 
             btn8.Font = new Font("Tahoma", 12F);
-            btn8.Location = new Point(177, 344);
+            btn8.Location = new Point(163, 344);
             btn8.Name = "btn8";
             btn8.Size = new Size(94, 86);
             btn8.TabIndex = 4;
@@ -79,7 +79,7 @@
             // btn5
             // 
             btn5.Font = new Font("Tahoma", 12F);
-            btn5.Location = new Point(177, 468);
+            btn5.Location = new Point(163, 468);
             btn5.Name = "btn5";
             btn5.Size = new Size(94, 86);
             btn5.TabIndex = 5;
@@ -90,7 +90,7 @@
             // btn2
             // 
             btn2.Font = new Font("Tahoma", 12F);
-            btn2.Location = new Point(177, 592);
+            btn2.Location = new Point(163, 592);
             btn2.Name = "btn2";
             btn2.Size = new Size(94, 86);
             btn2.TabIndex = 6;
@@ -101,7 +101,7 @@
             // btn0
             // 
             btn0.Font = new Font("Tahoma", 12F);
-            btn0.Location = new Point(177, 709);
+            btn0.Location = new Point(163, 709);
             btn0.Name = "btn0";
             btn0.Size = new Size(94, 86);
             btn0.TabIndex = 7;
@@ -144,7 +144,7 @@
             // btn3
             // 
             btn3.Font = new Font("Tahoma", 12F);
-            btn3.Location = new Point(310, 592);
+            btn3.Location = new Point(281, 592);
             btn3.Name = "btn3";
             btn3.Size = new Size(94, 86);
             btn3.TabIndex = 18;
@@ -155,7 +155,7 @@
             // btn6
             // 
             btn6.Font = new Font("Tahoma", 12F);
-            btn6.Location = new Point(310, 468);
+            btn6.Location = new Point(281, 468);
             btn6.Name = "btn6";
             btn6.Size = new Size(94, 86);
             btn6.TabIndex = 17;
@@ -166,7 +166,7 @@
             // btn9
             // 
             btn9.Font = new Font("Tahoma", 12F);
-            btn9.Location = new Point(310, 344);
+            btn9.Location = new Point(281, 344);
             btn9.Name = "btn9";
             btn9.Size = new Size(94, 86);
             btn9.TabIndex = 16;
@@ -177,7 +177,7 @@
             // btnCHIA
             // 
             btnCHIA.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCHIA.Location = new Point(443, 709);
+            btnCHIA.Location = new Point(397, 709);
             btnCHIA.Name = "btnCHIA";
             btnCHIA.Size = new Size(94, 86);
             btnCHIA.TabIndex = 15;
@@ -188,7 +188,7 @@
             // btnNHAN
             // 
             btnNHAN.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnNHAN.Location = new Point(443, 592);
+            btnNHAN.Location = new Point(397, 592);
             btnNHAN.Name = "btnNHAN";
             btnNHAN.Size = new Size(94, 86);
             btnNHAN.TabIndex = 14;
@@ -199,7 +199,7 @@
             // btnTRU
             // 
             btnTRU.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnTRU.Location = new Point(443, 468);
+            btnTRU.Location = new Point(397, 468);
             btnTRU.Name = "btnTRU";
             btnTRU.Size = new Size(94, 86);
             btnTRU.TabIndex = 13;
@@ -210,7 +210,7 @@
             // btnCONG
             // 
             btnCONG.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCONG.Location = new Point(443, 344);
+            btnCONG.Location = new Point(397, 344);
             btnCONG.Name = "btnCONG";
             btnCONG.Size = new Size(94, 86);
             btnCONG.TabIndex = 12;
@@ -221,7 +221,7 @@
             // btnCHAM
             // 
             btnCHAM.Font = new Font("Tahoma", 12F);
-            btnCHAM.Location = new Point(310, 709);
+            btnCHAM.Location = new Point(281, 709);
             btnCHAM.Name = "btnCHAM";
             btnCHAM.Size = new Size(94, 86);
             btnCHAM.TabIndex = 11;
@@ -232,7 +232,7 @@
             // btnXOA
             // 
             btnXOA.Font = new Font("Tahoma", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnXOA.Location = new Point(575, 592);
+            btnXOA.Location = new Point(515, 592);
             btnXOA.Name = "btnXOA";
             btnXOA.Size = new Size(94, 86);
             btnXOA.TabIndex = 26;
@@ -243,7 +243,7 @@
             // btnCAN
             // 
             btnCAN.Font = new Font("Tahoma", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCAN.Location = new Point(575, 468);
+            btnCAN.Location = new Point(515, 468);
             btnCAN.Name = "btnCAN";
             btnCAN.Size = new Size(94, 86);
             btnCAN.TabIndex = 25;
@@ -254,7 +254,7 @@
             // btnLUYTHUA
             // 
             btnLUYTHUA.Font = new Font("Tahoma", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLUYTHUA.Location = new Point(575, 344);
+            btnLUYTHUA.Location = new Point(515, 344);
             btnLUYTHUA.Name = "btnLUYTHUA";
             btnLUYTHUA.Size = new Size(94, 86);
             btnLUYTHUA.TabIndex = 24;
@@ -265,7 +265,7 @@
             // btnKETQUA
             // 
             btnKETQUA.Font = new Font("Tahoma", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnKETQUA.Location = new Point(575, 709);
+            btnKETQUA.Location = new Point(515, 709);
             btnKETQUA.Name = "btnKETQUA";
             btnKETQUA.Size = new Size(94, 86);
             btnKETQUA.TabIndex = 19;
@@ -280,7 +280,7 @@
             txtDISPLAY.Location = new Point(44, 50);
             txtDISPLAY.Multiline = true;
             txtDISPLAY.Name = "txtDISPLAY";
-            txtDISPLAY.Size = new Size(625, 200);
+            txtDISPLAY.Size = new Size(565, 200);
             txtDISPLAY.TabIndex = 27;
             txtDISPLAY.Text = "0";
             txtDISPLAY.TextAlign = HorizontalAlignment.Right;
@@ -288,18 +288,18 @@
             // txtHISTORY
             // 
             txtHISTORY.Enabled = false;
-            txtHISTORY.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtHISTORY.Location = new Point(715, 50);
+            txtHISTORY.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtHISTORY.Location = new Point(655, 50);
             txtHISTORY.Multiline = true;
             txtHISTORY.Name = "txtHISTORY";
-            txtHISTORY.Size = new Size(167, 628);
+            txtHISTORY.Size = new Size(227, 628);
             txtHISTORY.TabIndex = 28;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(715, 23);
+            label1.Location = new Point(655, 23);
             label1.Name = "label1";
             label1.Size = new Size(73, 24);
             label1.TabIndex = 29;
@@ -309,9 +309,9 @@
             // btnCLEAR
             // 
             btnCLEAR.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCLEAR.Location = new Point(715, 709);
+            btnCLEAR.Location = new Point(655, 709);
             btnCLEAR.Name = "btnCLEAR";
-            btnCLEAR.Size = new Size(167, 86);
+            btnCLEAR.Size = new Size(227, 86);
             btnCLEAR.TabIndex = 30;
             btnCLEAR.Text = "CLEAR";
             btnCLEAR.UseVisualStyleBackColor = true;
