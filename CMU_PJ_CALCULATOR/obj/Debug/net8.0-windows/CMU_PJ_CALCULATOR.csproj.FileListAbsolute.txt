@@ -290,3 +290,4 @@ C:\Users\LENOVO\Desktop\thiendeptrai\CMU-PJ-CALCULATOR\CMU_PJ_CALCULATOR\obj\Deb
 C:\Users\LENOVO\Desktop\thiendeptrai\CMU-PJ-CALCULATOR\CMU_PJ_CALCULATOR\obj\Debug\net8.0-windows\CMU_PJ_CALCULATOR.pdb
 C:\Users\LENOVO\Desktop\thiendeptrai\CMU-PJ-CALCULATOR\CMU_PJ_CALCULATOR\obj\Debug\net8.0-windows\CMU_PJ_CALCULATOR.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\thiendeptrai\CMU-PJ-CALCULATOR\CMU_PJ_CALCULATOR\obj\Debug\net8.0-windows\ref\CMU_PJ_CALCULATOR.dll
+C:\Users\TechCare\source\repos\CMU_PJ_CALCULATOR\CMU_PJ_CALCULATOR\obj\Debug\net8.0-windows\CMU_PJ_CALCULATOR.Properties.Resources.resources

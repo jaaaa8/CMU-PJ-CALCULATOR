@@ -14,81 +14,59 @@ namespace CMU_PJ_CALCULATOR
     public partial class CALCULATOR : DevExpress.XtraEditors.XtraForm
     {
         private string pheptinh = "";
-        private string input = "";
-        private double result = 0;
         private double s1 = 0;
+
         public CALCULATOR()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        // Thiết lập phép toán
         private void SetOperation(string operation)
         {
-            if (double.TryParse(txtDISPLAY.Text, out s1)) // Kiểm tra giá trị nhập có hợp lệ không
+            if (txtDISPLAY.Text.Contains("√"))
             {
-                pheptinh = operation; // Lưu phép tính
-                txtDISPLAY.Text = ""; // Xóa màn hình để nhập số tiếp theo
+                // Xử lý căn bậc hai
+                string input = txtDISPLAY.Text.Replace("√", "");
+                if (double.TryParse(input, out double sqrtValue))
+                {
+                    if (sqrtValue < 0)
+                    {
+                        txtDISPLAY.Text = "Invalid input";
+                        return;
+                    }
+                    s1 = Math.Sqrt(sqrtValue); // Tính căn bậc hai
+                }
+                else
+                {
+                    txtDISPLAY.Text = "Invalid input";
+                    return;
+                }
             }
-            else
+            else if (!double.TryParse(txtDISPLAY.Text, out s1))
             {
-                txtDISPLAY.Text = "Invalid input"; // Hiển thị lỗi nếu không hợp lệ
+                txtDISPLAY.Text = "Invalid input";
+                return;
             }
+
+            pheptinh = operation; // Lưu phép toán
+            txtDISPLAY.Text = ""; // Xóa màn hình
         }
 
-        private void btn0_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn0.Text;
-        }
+        // Xử lý các nút số
+        private void btn0_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn0.Text;
+        private void btn1_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn1.Text;
+        private void btn2_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn2.Text;
+        private void btn3_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn3.Text;
+        private void btn4_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn4.Text;
+        private void btn5_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn5.Text;
+        private void btn6_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn6.Text;
+        private void btn7_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn7.Text;
+        private void btn8_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn8.Text;
+        private void btn9_Click(object sender, EventArgs e) => txtDISPLAY.Text += btn9.Text;
+        private void btnCHAM_Click(object sender, EventArgs e) => txtDISPLAY.Text += btnCHAM.Text;
 
-        private void btn1_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn1.Text;
-        }
-
-        private void btn2_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn2.Text;
-        }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn3.Text;
-        }
-        private void btn4_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn4.Text;
-        }
-
-        private void btn5_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn5.Text;
-        }
-
-        private void btn6_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn6.Text;
-        }
-
-        private void btn7_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn7.Text;
-        }
-
-        private void btn8_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn8.Text;
-        }
-        private void btn9_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btn9.Text;
-        }
-
-
+        // Xử lý dấu %
         private void btnPHANTRAM_Click(object sender, EventArgs e)
         {
             try
@@ -108,71 +86,47 @@ namespace CMU_PJ_CALCULATOR
             }
         }
 
+        // Các nút phép toán
+        private void btnCONG_Click(object sender, EventArgs e) => SetOperation("➕");
+        private void btnTRU_Click(object sender, EventArgs e) => SetOperation("➖");
+        private void btnNHAN_Click(object sender, EventArgs e) => SetOperation("✖️");
+        private void btnCHIA_Click(object sender, EventArgs e) => SetOperation("➗");
+        private void btnLUYTHUA_Click(object sender, EventArgs e) => SetOperation("^");
 
-        private void btnCHAM_Click(object sender, EventArgs e)
-        {
-            txtDISPLAY.Text += btnCHAM.Text;
-        }
-
-        private void btnCHIA_Click(object sender, EventArgs e)
-        {
-            SetOperation("➗");
-        }
-
-        private void btnNHAN_Click(object sender, EventArgs e)
-        {
-            SetOperation("✖️");
-        }
-
-        private void btnTRU_Click(object sender, EventArgs e)
-        {
-            SetOperation("➖");
-        }
-
-        private void btnCONG_Click(object sender, EventArgs e)
-        {
-            SetOperation("➕");
-        }
-
-        private void btnLUYTHUA_Click(object sender, EventArgs e)
-        {
-            SetOperation("^");
-        }
-
+        // Xử lý căn bậc hai
         private void btnCAN_Click(object sender, EventArgs e)
         {
-            pheptinh = "√"; // Lưu phép toán là căn bậc hai
-            txtDISPLAY.Text = "√"; // Hiển thị biểu tượng căn
+            pheptinh = "√";
+            txtDISPLAY.Text = "√";
         }
 
-
+        // Xóa một ký tự
         private void btnXOA_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtDISPLAY.Text)) // Kiểm tra nếu chuỗi không rỗng
+            if (!string.IsNullOrEmpty(txtDISPLAY.Text))
             {
-                txtDISPLAY.Text = txtDISPLAY.Text.Substring(0, txtDISPLAY.Text.Length - 1); // Xóa ký tự cuối
+                txtDISPLAY.Text = txtDISPLAY.Text.Substring(0, txtDISPLAY.Text.Length - 1);
             }
         }
 
+        // Xử lý kết quả
         private void btnKETQUA_Click(object sender, EventArgs e)
         {
             try
             {
-                if (pheptinh == "√") // Kiểm tra nếu là phép tính căn bậc hai
+                if (pheptinh == "√") // Nếu phép toán là căn bậc hai
                 {
-                    string input = txtDISPLAY.Text.Replace("√", ""); // Loại bỏ ký tự "√"
+                    string input = txtDISPLAY.Text.Replace("√", "");
                     if (double.TryParse(input, out double s2))
                     {
                         if (s2 < 0)
                         {
-                            txtDISPLAY.Text = "Invalid input"; // Căn bậc hai của số âm không hợp lệ
+                            txtDISPLAY.Text = "Invalid input";
+                            return;
                         }
-                        else
-                        {
-                            result = Math.Sqrt(s2); // Tính căn bậc hai
-                            txtDISPLAY.Text = result.ToString(); // Hiển thị kết quả
-                            AddToHistory($"√{s2} = {result}"); // Thêm vào lịch sử
-                        }
+                        double sqrtResult = Math.Sqrt(s2);
+                        txtDISPLAY.Text = sqrtResult.ToString();
+                        AddToHistory($"√{s2} = {sqrtResult}");
                     }
                     else
                     {
@@ -181,16 +135,18 @@ namespace CMU_PJ_CALCULATOR
                 }
                 else if (double.TryParse(txtDISPLAY.Text, out double s2))
                 {
+                    // Thực hiện phép toán bình thường
+                    double finalResult = 0;
                     switch (pheptinh)
                     {
                         case "➕":
-                            result = s1 + s2;
+                            finalResult = s1 + s2;
                             break;
                         case "➖":
-                            result = s1 - s2;
+                            finalResult = s1 - s2;
                             break;
                         case "✖️":
-                            result = s1 * s2;
+                            finalResult = s1 * s2;
                             break;
                         case "➗":
                             if (s2 == 0)
@@ -198,31 +154,31 @@ namespace CMU_PJ_CALCULATOR
                                 txtDISPLAY.Text = "Cannot divide by 0";
                                 return;
                             }
-                            result = s1 / s2;
+                            finalResult = s1 / s2;
                             break;
                         case "^":
-                            result = Math.Pow(s1, s2);
+                            finalResult = Math.Pow(s1, s2);
                             break;
                         default:
                             txtDISPLAY.Text = "Invalid operation";
                             return;
                     }
-
-                    txtDISPLAY.Text = result.ToString();
-                    AddToHistory($"{s1} {pheptinh} {s2} = {result}");
+                    txtDISPLAY.Text = finalResult.ToString();
+                    AddToHistory($"{s1} {pheptinh} {s2} = {finalResult}");
+                    ResetState();
                 }
                 else
                 {
                     txtDISPLAY.Text = "Invalid input";
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                txtDISPLAY.Text = "Error";
+                txtDISPLAY.Text = $"Error: {ex.Message}";
             }
         }
 
-
+        // Thêm biểu thức vào lịch sử
         private void AddToHistory(string newEntry)
         {
             if (string.IsNullOrEmpty(txtHISTORY.Text))
@@ -242,28 +198,29 @@ namespace CMU_PJ_CALCULATOR
             }
         }
 
+        // Reset lại trạng thái sau khi tính toán
+        private void ResetState()
+        {
+            pheptinh = "";
+            s1 = 0;
+        }
+
+        // Xóa toàn bộ màn hình và lịch sử
+        private void btnCLEAR_Click(object sender, EventArgs e)
+        {
+            txtDISPLAY.Text = "";
+            ResetState();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtHISTORY.Text = "";  // Xóa lịch sử
+        }
+
         private void CALCULATOR_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void btnCLEAR_Click(object sender, EventArgs e)
-        {
-            if (!string.IsNullOrEmpty(txtDISPLAY.Text))
-            {
-                // First click: Clear txtDISPLAY
-                txtDISPLAY.Text = "";
-            }
-            else
-            {
-                // Second click: Clear txtHISTORY if txtDISPLAY is already empty
-                txtHISTORY.Text = "";
-                pheptinh = "";
-                s1 = 0;
-                result = 0;
-            }
-        }
-
-
     }
 }
+
