@@ -22,7 +22,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 178,
+      "VerticalTabListWidth": 137,
       "DocumentGroups": [
         {
           "DockedWidth": 293,
@@ -42,9 +42,9 @@
               "Title": "CALCULATOR.Designer.cs",
               "DocumentMoniker": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
-              "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs*",
-              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs*",
-              "ViewState": "AgIAAFYBAAAAAAAAAAAuwF8BAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
+              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T13:46:13.677Z",
               "EditorCaption": ""
@@ -55,9 +55,9 @@
               "Title": "CALCULATOR.cs",
               "DocumentMoniker": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
-              "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs*",
-              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs*",
-              "ViewState": "AgIAALgAAAAAAAAAAADgv9wAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAqwOcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:38:30.51Z",
               "EditorCaption": ""
@@ -72,8 +72,7 @@
               "RelativeToolTip": "CMU_PJ_CALCULATOR\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T06:32:35.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T06:32:35.224Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,8 @@
               "Title": "CALCULATOR.cs [Design]",
               "DocumentMoniker": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs",
               "RelativeDocumentMoniker": "CMU_PJ_CALCULATOR\\CALCULATOR.cs",
-              "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]*",
-              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]*",
+              "ToolTip": "C:\\Users\\TechCare\\source\\repos\\CMU_PJ_CALCULATOR\\CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]",
+              "RelativeToolTip": "CMU_PJ_CALCULATOR\\CALCULATOR.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T05:49:19.828Z",
               "EditorCaption": " [Design]"

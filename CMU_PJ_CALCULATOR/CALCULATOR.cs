@@ -221,6 +221,16 @@ namespace CMU_PJ_CALCULATOR
         {
 
         }
+
+        private void txtHISTORY_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDISPLAY_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

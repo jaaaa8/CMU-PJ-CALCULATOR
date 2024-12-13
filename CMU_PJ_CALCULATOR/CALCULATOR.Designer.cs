@@ -316,34 +316,36 @@
             // 
             // txtDISPLAY
             // 
-            txtDISPLAY.BackColor = Color.DimGray;
+            txtDISPLAY.BackColor = Color.Silver;
             txtDISPLAY.Enabled = false;
-            txtDISPLAY.Font = new Font("Tahoma", 20F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtDISPLAY.ForeColor = SystemColors.Window;
+            txtDISPLAY.Font = new Font("Tahoma", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtDISPLAY.ForeColor = Color.Black;
             txtDISPLAY.Location = new Point(44, 50);
             txtDISPLAY.Multiline = true;
             txtDISPLAY.Name = "txtDISPLAY";
             txtDISPLAY.Size = new Size(565, 200);
             txtDISPLAY.TabIndex = 27;
             txtDISPLAY.Text = "0";
-            txtDISPLAY.TextAlign = HorizontalAlignment.Right;
+            txtDISPLAY.TextChanged += txtDISPLAY_TextChanged;
             // 
             // txtHISTORY
             // 
-            txtHISTORY.BackColor = Color.DimGray;
+            txtHISTORY.BackColor = Color.Silver;
             txtHISTORY.Enabled = false;
-            txtHISTORY.Font = new Font("Tahoma", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtHISTORY.ForeColor = SystemColors.Window;
+            txtHISTORY.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtHISTORY.ForeColor = Color.Black;
             txtHISTORY.Location = new Point(655, 50);
             txtHISTORY.Multiline = true;
             txtHISTORY.Name = "txtHISTORY";
             txtHISTORY.Size = new Size(227, 628);
             txtHISTORY.TabIndex = 28;
+            txtHISTORY.TextChanged += txtHISTORY_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Silver;
             label1.Location = new Point(655, 23);
             label1.Name = "label1";
             label1.Size = new Size(73, 24);
