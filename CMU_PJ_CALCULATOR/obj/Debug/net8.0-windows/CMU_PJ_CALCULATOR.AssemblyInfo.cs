@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CMU_PJ_CALCULATOR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b09b106f769d6cfe8ce902eccc72233eb115b45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c91c585aa1f6f5430340457145ba58f11f85d6a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CMU_PJ_CALCULATOR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CMU_PJ_CALCULATOR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
